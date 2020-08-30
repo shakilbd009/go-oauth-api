@@ -9,7 +9,7 @@ var (
 )
 
 func init() {
-	cluster := gocql.NewCluster("192.168.0.44")
+	cluster := gocql.NewCluster("192.168.0.100")
 	cluster.Keyspace = "oauth"
 	cluster.Consistency = gocql.Quorum
 

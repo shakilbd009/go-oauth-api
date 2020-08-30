@@ -9,3 +9,5 @@ require (
 	github.com/shakilbd009/go-utils-lib v0.0.0-20200811034419-32eb878433c7
 	github.com/stretchr/testify v1.6.1
 )
+
+replace github.com/shakilbd009/go-utils-lib => /Users/akram/go-prj/go-utils-lib
